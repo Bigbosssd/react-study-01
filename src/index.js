@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-/* 测试合并提交 */
-
 /*
 通过问自己以下三个问题，你可以逐个检查相应数据是否属于 state：（这里还未定义是哪个层级的state，所以可以是顶级的state，不要误以为是子组件的state）
     1. 该数据是否是由父组件通过 props 传递而来的？如果是，那它应该不是 state。
